@@ -1,0 +1,340 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Roboto', sans-serif;
+scroll-behavior: smooth;
+}
+/* background starts */
+.background-web{
+    min-width: 100%;
+    height:45rem;
+    background-image: linear-gradient(to right, rgba(172, 109, 253, 0.795), rgba(249, 238, 253, 0));
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: auto;
+    position: relative;
+}
+.circle-background{
+    height:200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: rgb(234, 0, 255) ;
+    position: absolute;
+    top: 400px;
+    right: 300px;
+    filter: blur(300px);
+    -webkit-filter: blur(300px);
+    z-index: -100;
+    position: absolute;
+
+}
+/* background ends */
+.logo{
+    font-size: 2rem;
+    padding-left: 20px;
+    padding-top: 20px;
+    
+}
+.logo-design{
+    color:rgb(255, 123, 0) ;
+}
+.nav-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 40px;
+    margin-top: 30px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+
+}
+.btn{
+    margin-right: 20px;
+    background-color: black;
+    color: white;
+    display: block;
+    padding: 5px 30px;
+    font-weight: bold;
+    border-radius: 30px;
+    margin-top: 20px;
+    
+}
+nav ul li a:hover{
+    text-decoration-line: underline 2px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, .80);
+    border-radius: 15px;
+    padding: 5px 10px;
+    transition-duration: .5s;
+}
+.middle{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+}
+.Web-meeting img{
+    width: 500px;
+    height: 300px;
+    left: 100px;
+    border-radius: 2px ;
+}
+.article{
+    margin: 50px;
+}
+.article h2{
+    font-size: 2rem;
+}
+.article p{
+    margin-top: 20px;
+    opacity: .50;
+}
+.button-2{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    outline: none;
+    
+}
+.how-it-works{
+    margin-right: 20px;
+    background-color: transparent;
+    color: rgb(10, 0, 0);
+    display: block;
+    padding: 5px 30px;
+    font-weight: bold;
+    border-radius: 20px;
+    margin-top: 20px;
+    box-shadow: none;
+    font-size: 1.8rem;
+    
+}
+.lets-talk{
+    margin-right: 20px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    display: block;
+    padding: 5px 30px;
+    font-weight: bold;
+    border-radius: 20px;
+    margin-top: 20px;
+    box-shadow: none;
+    font-size: 1.8rem;
+}
+.how-it-works:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    padding:2px 30px;
+    transition-duration: .5s;
+    box-sizing: border-box;
+}
+
+.lets-talk:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 2px 30px;
+    transition-duration: .5s;
+    box-sizing: border-box;
+}
+.social-media{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 500px;
+    cursor: pointer;
+}
+.last-section{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    margin: 20px 20px;
+} 
+
+.paragraph{
+    width: 600px;
+}
+.paragraph p{
+    opacity: .50;
+}
+.paragraph h3{
+    margin-bottom: 20px;
+}
+.card{
+    margin: 20px;
+    background-color: rgba(237, 127, 247, 0.582);
+    height: 150px;
+    padding: 10px;
+    width: 20% ;
+    border-radius: 5px;
+}
+.card h4{
+    margin: 10px 0px;
+}
+
+.card i{
+    margin: 5px 5px;
+    font-size: 2rem;
+    color: black;
+}
+.card p{
+    font-size: .80rem;
+}
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+/* For mobile: */
+.col-md-1 {width: 8.33%;}
+.col-md-2 {width: 16.66%;}
+.col-md-3 {width: 25%;}
+.col-md-4 {width: 33.33%;}
+.col-md-5 {width: 41.66%;}
+.col-md-6 {width: 50%;}
+.col-md-7 {width: 58.33%;}
+.col-md-8 {width: 66.66%;}
+.col-md-9 {width: 75%;}
+.col-md-10 {width: 83.33%;}
+.col-md-11 {width: 91.66%;}
+.col-md-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+  .nav-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+nav ul li{
+    margin: 0;
+    padding: 5px;
+    display:inline;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-left: 10px;
+    font-size: .60rem;
+    box-sizing: border-box;
+}
+.logo1{
+    text-align: left;
+    margin-bottom: 10px;
+}
+.btn{
+    margin: 0;
+    padding: 10px;
+    display: block;
+    position: absolute;
+    left: 350px;
+    top: 15px;
+    background-color:rgb(0, 0, 0);
+    
+}
+.middle{
+    display: block;
+    margin: 20px 0;
+}
+.Web-meeting img{
+    max-width: 100%;
+    height: auto;
+
+}
+.article{
+    margin: 0 30px;
+}
+
+.button-2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+.how-it-works{
+    padding: 2px 15px;
+    font-size: .8rem;
+
+}
+.lets-talk{
+    padding: 2px 15px;
+    font-size: .8rem; 
+}
+.last-section{
+    display: block;
+    height: 100px;
+    border-radius: 5px;
+    
+    
+}
+    
+.paragraph{
+    max-width: 100%;
+    font-size: .60rem;
+    height: max-content;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+    background-color: rgba(237, 127, 247, 0.582);
+}
+.card{
+    max-width: 100%;
+    width: 100%;
+    margin: 15px 0;
+}
+.social-media{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 100%;
+    margin: 10px 0 30px 0; 
+    font-size: 2rem;
+}
+
+.background-web{
+    min-width: 100%;
+    height:80rem;
+    background-image: linear-gradient(to bottom, rgba(172, 109, 253, 0.795), rgba(249, 238, 253, 0));
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: auto;
+    position: relative;
+}
+.circle-background{
+    height:200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: rgb(234, 0, 255) ;
+    position: absolute;
+    top: 400px;
+    right: 300px;
+    filter: blur(300px);
+    -webkit-filter: blur(300px);
+    z-index: -100;
+    position: absolute;
+
+}
+
+}
